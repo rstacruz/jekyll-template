@@ -39,3 +39,21 @@ These can be useful partials.
   <li class="googleplus hint--bottom" data-hint="Share on Google Plus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="share"><span class="text">+1</span></a></li>
 </ul>
 ```
+
+### List of posts
+
+
+```html
+{% if site.posts %}
+<div class='post-index'>
+  <h3 class='bottom-space-1'>Previously on TIL:</h3>
+  {% for post in site.posts %}
+    <a href="{{ base }}{{ post.url }}">
+      <span class='date'>{{ post.date | date_to_string }}</span>
+      <span class='article'>{{ post.title }}</span>
+      <strong class='tag'>{{ post.tags | first }}</strong>
+    </a>
+  {% endfor %}
+</div>
+{% endif %}
+

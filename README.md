@@ -1,6 +1,6 @@
 # gh-pages-base
 
-Reasonable starting point for a Jekyll site.
+Reasonable starting point for a Jekyll site on GitHub pages.
 
 <br>
 
@@ -10,7 +10,7 @@ Reasonable starting point for a Jekyll site.
   Comes with the full suite of Facebook and Twitter compatible meta tags. This includes title, description, authors, tags, image, and so on.
   
 * __GitHub pages guaranteed__<br>
-  Managed Ruby gems via a `Gemfile`, maintaining parity with [GitHub pages](http://pages.github.com).
+  Managed Ruby gems via a `Gemfile`, maintaining parity with [GitHub pages](http://pages.github.com). This means you get Sass and CoffeeScript support.
   
 * __Other features__
   * Support for author metadata
