@@ -7,6 +7,7 @@
 {% elsif depth == 2 %}{% assign base = '../' %}
 {% elsif depth == 3 %}{% assign base = '../../' %}
 {% elsif depth == 4 %}{% assign base = '../../../' %}{% endif %}
+{% assign timestamp = site.time | date: "%Y%m%d%H%M%S" %}
 
 {%comment%}<!-- title -->{%endcomment%}
 {% if page.full_title %}
@@ -90,4 +91,4 @@
 
 <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
 <meta content='{{ include.viewport | default: "width=device-width, initial-scale=1.0" }}' name='viewport'>
-<link href='{{ base }}/assets/favicon.png' rel='shortcut icon'>
+<link href='{{ base }}assets/favicon.png' rel='shortcut icon'>
