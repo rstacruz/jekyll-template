@@ -11,9 +11,7 @@ exclude: ["Makefile", "README.md", "_/Gemfile", "_/Gemfile.lock",  "CNAME"]
 
 # Site info
 url: "http://siteurl.com"
-meta:
-  title: "Site name"
-  description: "This is the site description"
+title: "Site name"
 
 # Google analytics
 analytics:

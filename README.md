@@ -1,4 +1,4 @@
-# Jekyllstrap
+# gh-pages-base
 
 Reasonable starting point for a Jekyll site.
 
@@ -6,9 +6,16 @@ Reasonable starting point for a Jekyll site.
 
 ## Features
 
-* Full stack of Facebook and Twitter compatible meta tags
-* Managed Ruby gems via a `Gemfile`, maintaining parity with [GitHub pages](http://pages.github.com)
-* Support for author metadata
+* __Meta tags__<br>
+  Comes with the full suite of Facebook and Twitter compatible meta tags. This includes title, description, authors, tags, image, and so on.
+  
+* __GitHub pages guaranteed__<br>
+  Managed Ruby gems via a `Gemfile`, maintaining parity with [GitHub pages](http://pages.github.com).
+  
+* __Other features__
+  * Support for author metadata
+  * Google Analytics
+  * No design (bring your own CSS)
 
 <br>
 
@@ -36,8 +43,9 @@ These are defined in `/_config.yml`.
 | Key | Description |
 |-----|-------------|
 | `url` | used for permalinks to images and atom.xml |
-| `meta.title` | to be appended to the *title* tag on inner pages |
-| `meta.description` | used for meta description for the index page |
+| `title` | The site name. to be appended to the *title* tag on inner pages, and `site_name` OG metadata |
+| `author` | Used in atom.xml's default author |
+| `email` | Used in atom.xml's default email |
 | `analytics.hostname` | used for excluding other domains from Analytics |
 | `analytics.id` | Google analytics ID |
 
@@ -50,7 +58,7 @@ Put authors in `_authors`, eg, `_authors/rstacruz.html`.
 | Key | Description |
 |-----|-------------|
 | `name` | full name |
-| `ogp` | Facebook URL. Used for OpenGraph article:author |
+| `ogp` | Facebook URL. Used for OpenGraph `article:author` |
 
 <br>
 
