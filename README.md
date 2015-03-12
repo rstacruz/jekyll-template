@@ -11,17 +11,23 @@ Reasonable starting point for a Jekyll site.
 * `image` - used for meta og:image
 * `date` - used for publish_date
 * `tags` - used for tags and sections
+* `type` - opengraph type (article, blog, website, etc)
 
 ## Site data
 
 * `url` - used for permalinks to images and atom.xml
 * `meta.title` - to be appended to the *title* tag on inner pages
-* `meta.hostname` - used for checking Analytics
 * `meta.description` - used for meta description for the index page
-* `analytics.id` - google analytics ID
+* `analytics.hostname` - used for excluding other domains from Analytics
+* `analytics.id` - Google analytics ID
 
 ## Authors
 
 Put authors in `_authors`, eg, `_authors/rstacruz.html`
 
-* `name`
+* `name` - full name
+* `ogp` - Facebook URL
+
+## Available variables
+
+* `{{ base }}` - the base path to root (eg, `href="{{base}}/assets/style.css`)

@@ -13,11 +13,11 @@ exclude: ["Makefile", "README.md", "_/Gemfile", "_/Gemfile.lock",  "CNAME"]
 url: "http://ricostacruz.com/til"
 meta:
   title: "Today I Learned"
-  hostname: "ricostacruz.com"
   description: "TIL - a collection of things I learned on my day-to-day web development work."
 
 # Google analytics
 analytics:
+  hostname: "ricostacruz.com"
   id: "UA-XXXXXXXX-1"
 
 # Collections
