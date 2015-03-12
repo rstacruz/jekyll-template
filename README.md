@@ -66,5 +66,5 @@ Put authors in `_authors`, eg, `_authors/rstacruz.html`.
 
 | Variable | Description |
 |----------|-------------|
-| `{{ base }}` | the base path to root (eg, `href="{{base}}/assets/style.css`)
-| `{{ timestamp }}` | current timestamp, great for cache busting |
+| `{{base}}` | the base path to root (eg, `href="{{base}}/assets/style.css`)
+| `{{timestamp}}` | current timestamp, great for cache busting |
