@@ -2,6 +2,16 @@
 
 Reasonable starting point for a Jekyll site.
 
+<br>
+
+## Features
+
+* Full stack of Facebook and Twitter compatible meta tags
+* Managed Ruby gems via a `Gemfile`, maintaining parity with [GitHub pages](http://pages.github.com)
+* Support for author metadata
+
+<br>
+
 ## Page meta data
 
 These are defined in the front matter of a page.
