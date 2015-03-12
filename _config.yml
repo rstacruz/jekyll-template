@@ -7,7 +7,13 @@ kramdown:
 
 # Site settings
 permalink: /:title.html
-exclude: ["Makefile", "README.md", "_/Gemfile", "_/Gemfile.lock",  "CNAME"]
+exclude:
+  - Makefile
+  - README.md
+  - _/Gemfile
+  - _/Gemfile.lock
+  - CNAME
+  - EXTRAS.md
 
 # Site info
 url: "http://siteurl.com"

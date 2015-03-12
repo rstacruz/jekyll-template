@@ -23,6 +23,14 @@ Reasonable starting point for a Jekyll site.
 
 These are defined in the front matter of a page.
 
+```yml
+---
+title: "Creating divergence"
+description: "Learn how to make divergence with this one simple trick."
+author: "Rico Sta. Cruz"
+---
+```
+
 | Key | Description |
 |-----|-------------|
 | `title` | the page title |
@@ -53,7 +61,16 @@ These are defined in `/_config.yml`.
 
 ## Authors
 
-Put authors in `_authors`, eg, `_authors/rstacruz.html`.
+Put authors in `_authors`, eg, `_authors/rstacruz.html`. When an `author` is used in a page (eg, `author: "Rico Sta. Cruz"`), the name is matched to any of these authors available here. Example:
+
+```yml
+---
+name: Rico Sta. Cruz
+facebook: https://www.facebook.com/ricostacruz
+twitter: rstacruz
+bio: ...
+---
+```
 
 | Key | Description |
 |-----|-------------|
