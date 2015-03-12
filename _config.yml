@@ -10,14 +10,14 @@ permalink: /:title.html
 exclude: ["Makefile", "README.md", "_/Gemfile", "_/Gemfile.lock",  "CNAME"]
 
 # Site info
-url: "http://ricostacruz.com/til"
+url: "http://siteurl.com"
 meta:
-  title: "Today I Learned"
-  description: "TIL - a collection of things I learned on my day-to-day web development work."
+  title: "Site name"
+  description: "This is the site description"
 
 # Google analytics
 analytics:
-  hostname: "ricostacruz.com"
+  hostname: "siteurl.com"
   id: "UA-XXXXXXXX-1"
 
 # Collections
@@ -31,4 +31,4 @@ defaults:
     values:
       layout: "article"
       tags: []
-      author: Rico Sta. Cruz
+      author: John Smith
