@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Today I Learned]]></title>
+  <link href="http://ricostacruz.com/til/atom.xml" rel="self"/>
+  <link href="http://ricostacruz.com/til/"/>
+  <updated>2015-03-12T15:55:58+08:00</updated>
+  <id>http://ricostacruz.com/til/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://jekyllrb.com/">Jekyll</generator>
+
+  
+</feed>

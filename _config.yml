@@ -1,0 +1,34 @@
+# Markdown
+highlighter: pygments
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Site settings
+permalink: /:title.html
+exclude: ["Makefile", "README.md", "_/Gemfile", "_/Gemfile.lock",  "CNAME"]
+
+# Site info
+url: "http://ricostacruz.com/til"
+meta:
+  title: "Today I Learned"
+  hostname: "ricostacruz.com"
+  description: "TIL - a collection of things I learned on my day-to-day web development work."
+
+# Google analytics
+analytics:
+  id: "UA-XXXXXXXX-1"
+
+# Collections
+collections:
+  - authors
+
+# Default variables
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "article"
+      tags: []
+      author: Rico Sta. Cruz
