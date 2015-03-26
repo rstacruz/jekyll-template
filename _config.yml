@@ -14,6 +14,8 @@ exclude:
   - _/Gemfile.lock
   - CNAME
   - EXTRAS.md
+sass:
+  style: compressed
 
 # Site info
 url: "http://siteurl.com"
