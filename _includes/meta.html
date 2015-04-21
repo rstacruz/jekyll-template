@@ -66,11 +66,16 @@
 
 {%comment%}<!-- page meta -->{%endcomment%}
 {% if page.date %}
-<meta content='{{ page.date | date: "%Y-%m-%d" }}' property='article:published_date'>
+<meta content='{{ page.date | date: "%Y-%m-%d" }}' property='article:published_time'>
 {% endif %}
 {% if page.image %}
-<meta content='{{ page.image }}' property='og:image'>
-<meta content='{{ page.image }}' name='twitter:image'>
+  {% if page.image contains '://' %}
+    <meta content='{{ page.image }}' property='og:image'>
+    <meta content='{{ page.image }}' name='twitter:image'>
+  {% else %}
+    <meta content='{{ site.url }}/{{ page.image }}' property='og:image'>
+    <meta content='{{ site.url }}/{{ page.image }}' name='twitter:image'>
+  {% endif %}
 {% endif %}
 
 {%comment%}<!-- tags -->{%endcomment%}
@@ -90,5 +95,5 @@
 <meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <link href='{{ base }}/assets/favicon.png' rel='shortcut icon'>
 
-{%comment%}<!-- fouc -->{%endcomment%}
+{%comment%}<!-- js -->{%endcomment%}
 <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
