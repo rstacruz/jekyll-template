@@ -1,19 +1,16 @@
 # Markdown
-highlighter: pygments
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
 
 # Site settings
 permalink: /:title.html
 exclude:
   - Makefile
   - README.md
-  - _/Gemfile
-  - _/Gemfile.lock
-  - CNAME
   - EXTRAS.md
+  - _
+  - CNAME
 sass:
   style: compressed
 
