@@ -9,7 +9,7 @@ exclude:
   - Makefile
   - README.md
   - EXTRAS.md
-  - _
+  - _/
   - CNAME
 sass:
   style: compressed
