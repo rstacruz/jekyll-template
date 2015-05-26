@@ -9,7 +9,9 @@ exclude:
   - Makefile
   - README.md
   - EXTRAS.md
-  - _/
+  - Gemfile
+  - Gemfile.lock
+  - vendor
   - CNAME
 sass:
   style: compressed
