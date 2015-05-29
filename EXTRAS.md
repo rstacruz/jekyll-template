@@ -30,6 +30,24 @@ These can be useful partials.
 </div>
 ```
 
+Put authors in a collection.
+
+```yml
+---
+# _collections/authors/jk-rowling.md
+name: "JK Rowling"
+bio: "She writes about young wizards."
+twitter: jk_rowling
+---
+```
+
+Also in config.yml:
+
+```yml
+collections:
+ - authors
+```
+
 ### Social sharing
 
 ```html
@@ -41,7 +59,6 @@ These can be useful partials.
 ```
 
 ### List of posts
-
 
 ```html
 {% if site.posts %}
