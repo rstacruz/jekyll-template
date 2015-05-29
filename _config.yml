@@ -26,10 +26,6 @@ analytics:
   hostname: "siteurl.com"
   id: "UA-XXXXXXXX-1"
 
-# Collections
-collections:
-  - authors
-
 # Default variables
 defaults:
   - scope:
