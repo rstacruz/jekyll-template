@@ -4,6 +4,16 @@ Reasonable starting point for a Jekyll site on GitHub pages.
 
 <br>
 
+## Install
+
+```sh
+mkdir my-project
+cd my-project
+curl -sSL https://raw.githubusercontent.com/rstacruz/jekyll-template/master/_extras/INSTALL.sh | bash
+```
+
+<br>
+
 ## Features
 
 * __Meta tags__<br>
